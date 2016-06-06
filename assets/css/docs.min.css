@@ -28,7 +28,6 @@ body>.navbar .brand {
     padding-left: 0;
     margin-left: 20px;
     float: right;
-    font-weight: 700;
     color: #000;
     text-shadow: 0 1px 0 rgba(255,255,255,.1),0 0 30px rgba(255,255,255,.125);
     -webkit-transition: all .2s linear;
@@ -68,15 +67,14 @@ hr.soften {
 }
 
 .jumbotron {
-    padding: 10px 0 20px;
+    padding: 20px;
     color: #efefef;
     text-align: center;
     background: #333;
 }
 
 .jumbotron h1 {
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
     display: inline-block;
@@ -177,7 +175,7 @@ hr.soften {
 }
 
 .marketing h1,.subhead h1 {
-    font-size: 60px
+    font-size: 42px
 }
 
 .masthead-links {
