@@ -1,6 +1,6 @@
 {
   "name": "mr-doc-theme-ravel",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Mr. Doc theme for the Ravel Framework",
   "main": "gulpfile.js",
   "directories": {
