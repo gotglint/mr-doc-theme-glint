@@ -1,14 +1,14 @@
 {
-  "name": "mr-doc-theme-default",
-  "version": "1.4.0",
-  "description": "The default theme for Mr. Doc",
+  "name": "mr-doc-theme-ravel",
+  "version": "1.0.0",
+  "description": "Mr. Doc theme for the Ravel Framework",
   "main": "gulpfile.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "gulp": "^3.9.0",
-    "mr-doc": "git+https://github.com/mr-doc/mr-doc.git"
+    "gulp": "3.9.1",
+    "mr-doc": "3.2.1"
   },
   "devDependencies": {
     "glob": "^5.0.14",
@@ -19,19 +19,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mr-doc/mr-doc-theme-default.git"
+    "url": "https://github.com/raveljs/mr-doc-theme-ravel.git"
   },
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
   "contributors": [
     {
-      "name": "iwatakeshi"
+      "name": "iwatakeshi",
+      "name": "Ghnuberath"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mr-doc/mr-doc-theme-default/issues"
+    "url": "https://github.com/raveljs/mr-doc-theme-ravel/issues"
   },
-  "homepage": "https://github.com/mr-doc/mr-doc-theme-default#readme",
+  "homepage": "https://github.com/raveljs/mr-doc-theme-ravel#readme",
   "keywords": [
     "mr-doc-theme",
     "mr-doc",
