@@ -58,9 +58,9 @@ html
               section(id=symbol.ctx.name)
                   h1= symbol.ctx.name
                   h5.subheader
-                  if !symbol.gtype && symbol.type
+                  if symbol.type
                     p
-                      div(class=["label", "label-inverse", "radius", "ctx-type"])= symbol.type
+                      div(class=["label", "label-primary", "radius", "ctx-type"])= symbol.type
                   else
                     p
                       mixin labelForSymbolType(symbol)
