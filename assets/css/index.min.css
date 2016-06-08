@@ -28,3 +28,7 @@ body>.navbar .brand {
     border-top-left-radius: 6px
 }
 
+div.scrollspy .bs-docs-sidenav {
+  max-height: 400px;
+  overflow-y: scroll;
+}
