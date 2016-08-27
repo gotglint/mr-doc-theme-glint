@@ -1,7 +1,7 @@
 {
-  "name": "mr-doc-theme-ravel",
-  "version": "0.0.6",
-  "description": "Mr. Doc theme for the Ravel Framework",
+  "name": "mr-doc-theme-glint",
+  "version": "0.0.1",
+  "description": "Mr. Doc theme for the Glint Cluster System",
   "main": "gulpfile.js",
   "directories": {
     "test": "test"
@@ -11,27 +11,27 @@
     "mr-doc": "3.2.1"
   },
   "devDependencies": {
-    "glob": "^5.0.14",
+    "glob": "^7.0.6",
     "gulp-clipboard": "^0.1.1",
-    "gulp-connect": "^2.2.0",
-    "gulp-shell": "^0.4.3",
+    "gulp-connect": "^5.0.0",
+    "gulp-shell": "^0.5.2",
     "lodash": "^4.x.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/raveljs/mr-doc-theme-ravel.git"
+    "url": "https://github.com/gotglint/mr-doc-theme-glint.git"
   },
-  "author": "Sean McIntyre <s.mcintyre@xverba.ca>",
+  "author": "Michael Laccetti <michael@gotglint.co> (https://gotglint.co/)",
   "contributors": [
-    {
-      "name": "iwatakeshi"
-    }
+    "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
+    "iwatakeshi",
+    "Sean McIntyre <s.mcintyre@xverba.ca>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/raveljs/mr-doc-theme-ravel/issues"
+    "url": "https://github.com/gotglint/mr-doc-theme-glint/issues"
   },
-  "homepage": "https://github.com/raveljs/mr-doc-theme-ravel#readme",
+  "homepage": "https://github.com/gotglint/mr-doc-theme-glint#readme",
   "keywords": [
     "mr-doc-theme",
     "mr-doc",

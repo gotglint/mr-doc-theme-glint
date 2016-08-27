@@ -4,31 +4,20 @@
     <meta name="viewport" content="width=device-width" charset="utf-8">
     <title>Mr. Doc's Default Theme</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/cayman.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/prism.min.css">
     <link rel="stylesheet" href="css/index.min.css">
     <link rel="stylesheet" href="css/docs.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
   </head>
   <body data-spy="scroll" data-target=".scrollspy">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container"><a class="brand">Mr. Doc</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right sponsored"></ul>
-          </div>
-        </div>
-      </div>
-    </div>
     <header id="overview" class="jumbotron subhead">
-      <div class="container">
+      <div class="container"><img src="css/logo2.png">
         <h1>Mr. Doc's Default Theme</h1>
-        <p class="lead"></p>
       </div>
     </header>
     <div class="container">
       <div class="row">
-        <div class="span3 bs-docs-sidebar">
+        <div class="col-sm-3 bs-docs-sidebar">
           <ul class="nav nav-list bs-docs-sidenav affix-top">
             <li><a href="index.html">Main</a></li>
             <li><a href="api/api.js.html">api/api.js</a></li>
@@ -46,7 +35,7 @@
             </ul>
           </div>
         </div>
-        <div class="span9">
+        <div class="col-sm-9">
           <section id="Car">
             <h1>Car</h1>
             <h5 class="subheader"></h5>
@@ -54,11 +43,13 @@
               <div class="label label-success radius ctx-type">class</div><span>&nbsp;</span><span>new Car()</span><span>&nbsp;</span><span>&nbsp;</span><span class="label label-default">extends</span><span>&nbsp;</span><span>Vehicle</span>
             </p>
           </section>
-          <div class="description"></div>
-          <pre><code class="language-javascript">class Car extends Vehicle {
+          <div class="description"></div><a role="button" data-toggle="collapse" data-target="#0" aria-expanded="false" aria-controls="0" class="btn btn-default btn-sm">Source</a>
+          <div id="0" class="collapse">
+            <pre><code class="language-javascript">class Car extends Vehicle {
 	constructor(make){
 			super(make);
 	}</code></pre>
+          </div>
           <h3 class="muted">Example</h3>
           <pre><code class="language-javascript">var honda = new Car("Honda");</code></pre>
           <section id="accelerate">
@@ -68,10 +59,12 @@
               <div class="label label-info radius ctx-type">method</div><span>&nbsp;</span><span>Car.prototype.accelerate()</span><span>&nbsp;</span>
             </p>
           </section>
-          <div class="description"><p>Generates the files</p></div>
-          <pre><code class="language-javascript">accelerate (){
+          <div class="description"><p>Generates the files</p></div><a role="button" data-toggle="collapse" data-target="#1" aria-expanded="false" aria-controls="1" class="btn btn-default btn-sm">Source</a>
+          <div id="1" class="collapse">
+            <pre><code class="language-javascript">accelerate (){
 
 }</code></pre>
+          </div>
           <h3 class="muted">Example</h3>
           <pre><code class="language-javascript">honda.accelerate();</code></pre>
           <section id="honk">
@@ -81,11 +74,13 @@
               <div class="label label-info radius ctx-type">method</div><span>&nbsp;</span><span>Car.prototype.honk()</span><span>&nbsp;</span>
             </p>
           </section>
-          <div class="description"><p>Some other function</p></div>
-          <pre><code class="language-javascript">honk () {
+          <div class="description"><p>Some other function</p></div><a role="button" data-toggle="collapse" data-target="#2" aria-expanded="false" aria-controls="2" class="btn btn-default btn-sm">Source</a>
+          <div id="2" class="collapse">
+            <pre><code class="language-javascript">honk () {
 
 }
 }</code></pre>
+          </div>
           <h3 class="muted">Example</h3>
           <pre><code class="language-javascript">honda.honk();</code></pre>
         </div>
@@ -93,18 +88,14 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <p>Documentation generated with <a href="https://github.com/mr-doc/mr-doc">Mr. Doc </a> created by <a href="https://twitter.com/FGRibreau" data-show-count="false" class="twitter-follow-button">Francois-Guillaume Ribreau </a></p>
-        <p>Mr. Doc is sponsored by <a href="http://bringr.net/?btt" title="Outil d'analyse des réseaux sociaux" class="bringr">Bringr </a> and <a href="https://redsmin.com/?btt" title="Full Redis GUI" class="redsmin">Redsmin</a></p>
+        <p>Documentation generated with&nbsp;<a href="https://github.com/mr-doc/mr-doc">Mr. Doc</a> created by&nbsp;<a href="https://twitter.com/FGRibreau" data-show-count="false" class="twitter-follow-button">Francois-Guillaume Ribreau</a></p>
+        <p>Mr. Doc is sponsored by&nbsp;<a href="http://bringr.net/?btt" title="Outil d'analyse des réseaux sociaux" class="bringr">Bringr</a> and&nbsp;<a href="https://redsmin.com/?btt" title="Full Redis GUI" class="redsmin">Redsmin</a></p>
         <p>Theme borrowed from Twitter Bootstrap</p>
       </div>
     </footer>
     <script src="js/twitter-widget.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap-transition.min.js"></script>
-    <script src="js/bootstrap-scrollspy.min.js"></script>
-    <script src="js/bootstrap-dropdown.min.js"></script>
-    <script src="js/bootstrap-collapse.min.js"></script>
-    <script src="js/bootstrap-affix.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/prism.min.js"></script>
     <script src="js/index.min.js"></script>
   </body>
